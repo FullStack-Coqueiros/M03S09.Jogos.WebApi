@@ -1,9 +1,7 @@
 ﻿using AutoMapper;
 using M03S09.Jogos.WebApi.Domain;
-using M03S09.Jogos.WebApi.DTOs.Estudios;
 using M03S09.Jogos.WebApi.DTOs.Jogos;
 using M03S09.Jogos.WebApi.Repositories;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace M03S09.Jogos.WebApi.Controllers
