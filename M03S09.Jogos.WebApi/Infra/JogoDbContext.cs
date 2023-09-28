@@ -8,7 +8,7 @@ namespace M03S09.Jogos.WebApi.Infra
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=.\\SQLEXPRESS;Database=coqueiros0309.Jogo;Trusted_Connection=True;TrustServerCertificate=True;User Id=lab365;Password=mithrandir;");
+            optionsBuilder.UseSqlServer("Server=.\\SQLEXPRESS;Database=coqueiros0309.Jogo;Trusted_Connection=True;TrustServerCertificate=True;User Id=[USUARIO];Password=[SENHA];");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
